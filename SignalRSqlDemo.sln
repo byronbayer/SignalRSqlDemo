@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSqlDemo", "SignalRSqlDemo\SignalRSqlDemo.csproj", "{3FF6248E-4F43-4EE9-AFFE-B1D629D375A6}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SignalRDB", "SignalRDB\SignalRDB.sqlproj", "{A5B54149-0ADE-4095-8A14-4C11DACA8718}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://end-edas12:8080/tfs/ecommerce
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SignalRSqlDemo\\SignalRSqlDemo.csproj
+		SccProjectName1 = SignalRSqlDemo
+		SccLocalPath1 = SignalRSqlDemo
+		SccProjectUniqueName2 = SignalRDB\\SignalRDB.sqlproj
+		SccProjectName2 = SignalRDB
+		SccLocalPath2 = SignalRDB
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FF6248E-4F43-4EE9-AFFE-B1D629D375A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF6248E-4F43-4EE9-AFFE-B1D629D375A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF6248E-4F43-4EE9-AFFE-B1D629D375A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF6248E-4F43-4EE9-AFFE-B1D629D375A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B54149-0ADE-4095-8A14-4C11DACA8718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B54149-0ADE-4095-8A14-4C11DACA8718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B54149-0ADE-4095-8A14-4C11DACA8718}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A5B54149-0ADE-4095-8A14-4C11DACA8718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B54149-0ADE-4095-8A14-4C11DACA8718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B54149-0ADE-4095-8A14-4C11DACA8718}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

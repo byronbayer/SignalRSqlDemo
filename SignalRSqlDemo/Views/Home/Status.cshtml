@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>JobStatus</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+
+    <script src="~/Scripts/site.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.0.2.js"></script>
+
+    <script src="~/signalr/hubs" type="text/javascript"></script>
+
+
+</head>
+<body>
+    <div>
+        <table id="tblJobInfo" style="text-align:center;margin-left:10px"></table>
+    </div>
+</body>
+</html>
